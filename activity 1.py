@@ -8,8 +8,8 @@ def numberofBits(n):
             ones+=1
         else:
             zeros+=1
-            n>>=1
-        print("\n\n0nes=",ones,"\nZeros",zeros)
+        n>>=1
+    print("\n\n0nes=",ones,"\nZeros",zeros)
 
 number=int(input("Enter a number:"))
 numberofBits(number)
